@@ -394,7 +394,7 @@ body {
 }
 
 .customers-list-icon {
-    fill: #AFB1B8;
+    fill: var(--color-text-second)
 }    
 
 .customers-list-link:hover,
