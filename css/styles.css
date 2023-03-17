@@ -253,17 +253,7 @@ body {
 
 .feutures-list {
     display: flex;
-    width: 264px;
-    height: 224px;
 }
-
-.feutures-item {
-    display: block;
-    content: "";
-    height: 112px;
-    background: var(--backround-light);
-    border-radius: 4px;
-} 
 
 .feutures-item:not(:last-child) {
     margin-right: 24px;
@@ -275,9 +265,16 @@ body {
 }
 
 .feutures-icon {
-    padding: 24px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    height: 112px;
+    background: var(--backround-light);
+    border-radius: 4px;
     background-position: center center;
-}
+    }
+
 /* ============================== /FEUTURES ========================== */
 
 /* ============================== PROJECTS =========================== */
